@@ -1,9 +1,15 @@
 # 供应商决策实验室
 
-[在线演示](https://jinyh.github.io/supplier-learning-lab/)
+版本：v0.5.0 · 2026-09-17
 
-当前版本v0.4.0，配套EMBA课程PPT v0.8.0。六步路径覆盖初审、错误代价、能力取舍、证据审查、行动与责任及投入复审。新增可展开的技术机制：阈值与资源约束、检索组件移除、工具状态与恢复路径。
+[打开实验室](https://jinyh.github.io/supplier-learning-lab/)
 
-本仓库只保存公开网页成品，用于AI数据治理教学。全部订单、条款、评分、回答和工具回执均为课程合成执行回放。无账号、上传、真实业务系统或API调用；课堂状态只留在当前页面，刷新清除。
+六步业务路径帮助比较错误成本、决策阈值、检索证据和行动授权。独立的“学习机制”入口展示真实逻辑回归主动学习与表格型Q-learning，使用合成数据和简化环境，结果由浏览器内计算产生。
 
-下载docs/index.html后可离线打开。Three.js许可已包含在HTML中。GitHub Pages从main分支的/docs目录发布。
+- [主动学习](https://jinyh.github.io/supplier-learning-lab/#learning-active)：相同标注预算下比较随机抽样和不确定性采样。
+- [强化学习](https://jinyh.github.io/supplier-learning-lab/#learning-reinforcement)：比较不同奖励目标对行动策略和业务结果的影响。
+- [学习知识库](https://jinyh.github.io/ai-management-decision-kit/)：方法解释、适用条件与自测。
+
+网页无需服务器计算或外部模型。下载 `docs/index.html` 后可在本地浏览器使用。学习实验状态仅存当前页面内存；关闭实验返回六步路径保留业务选择，刷新页面清除实验进度。
+
+本仓库仅公开README与网页发布目录。课程教师资料不在公开范围内。
